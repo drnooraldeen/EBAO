@@ -2,17 +2,17 @@
 # EBOA (Enhanced Binary Aquila Optimizer)
 
 ## Project Description
-EBOA is a feature selection and optimization algorithm designed for use in binary and continuous optimization tasks. The algorithm leverages various mutation strategies and optimization techniques, including Lévy flights and binary transfer functions, to select optimal feature subsets in high-dimensional data. This implementation uses the KDDCup99 dataset as an example application to demonstrate its performance in feature selection and classification tasks.
+EBAO is a feature selection and optimization algorithm designed for use in binary and continuous optimization tasks. The algorithm leverages various mutation strategies and optimization techniques, including Lévy flights and binary transfer functions, to select optimal feature subsets in high-dimensional data. This implementation uses the KDDCup99 dataset as an example application to demonstrate its performance in feature selection and classification tasks.
 
 ## How to Run the Code
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/drnooraldeen/EBOA.git
+   git clone https://github.com/drnooraldeen/EBAO.git
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd EBOA
+   cd EBAO
    ```
 3. **Install required dependencies**:
    Ensure that you have `numpy`, `pandas`, `scikit-learn`, and other necessary Python libraries installed. You can install these using:
@@ -22,9 +22,9 @@ EBOA is a feature selection and optimization algorithm designed for use in binar
    *(Create a `requirements.txt` file if you haven't already, listing the dependencies.)*
 
 4. **Run the main file**:
-   Execute the main file to run the EBOA algorithm:
+   Execute the main file to run the EBAO algorithm:
    ```bash
-   python EBOA.py
+   python EBAO.py
    ```
    
 ## Dependencies and Requirements
@@ -40,7 +40,7 @@ pip install numpy pandas scikit-learn
 ```
 
 ## Example Usage and Expected Outputs
-- The EBOA algorithm is applied to the KDDCup99 dataset for feature selection and classification.
+- The EBAO algorithm is applied to the KDDCup99 dataset for feature selection and classification.
 - After running the code, you can expect output showing the best solution found by the optimizer and its corresponding fitness score, including accuracy and F1-score metrics.
 
 Example output:
@@ -51,7 +51,7 @@ Best solution found: [array([...]), fitness_value]
 ## Project Structure
 ```
 EBOA/
-├── EBOA.py               # Main implementation of the EBOA algorithm
+├── EBAO.py               # Main implementation of the EBAO algorithm
 ├── KDDCup99.csv          # Example dataset (ensure the data file is in the project directory)
 └── README.md             # Project documentation
 ```
