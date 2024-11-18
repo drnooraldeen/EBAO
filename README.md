@@ -1,5 +1,5 @@
 
-# EBOA (Enhanced Binary Aquila Optimizer)
+# EBAO (Enhanced Binary Aquila Optimizer)
 
 ## Project Description
 EBAO is a feature selection and optimization algorithm designed for use in binary and continuous optimization tasks. The algorithm leverages various mutation strategies and optimization techniques, including Lévy flights and binary transfer functions, to select optimal feature subsets in high-dimensional data. This implementation uses the KDDCup99 dataset as an example application to demonstrate its performance in feature selection and classification tasks.
@@ -51,7 +51,7 @@ Best solution found: [array([...]), fitness_value]
 ## Project Structure
 ```
 EBOA/
-├── EBAO.py               # Main implementation of the EBAO algorithm
+├── EBOA.py               # Main implementation of the EBAO algorithm
 ├── KDDCup99.csv          # Example dataset (ensure the data file is in the project directory)
 └── README.md             # Project documentation
 ```
