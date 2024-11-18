@@ -1,5 +1,5 @@
 
-# EBOA (Enhanced Binary Optimization Algorithm)
+# EBOA (Enhanced Binary Aquila Optimizer)
 
 ## Project Description
 EBOA is a feature selection and optimization algorithm designed for use in binary and continuous optimization tasks. The algorithm leverages various mutation strategies and optimization techniques, including Lévy flights and binary transfer functions, to select optimal feature subsets in high-dimensional data. This implementation uses the KDDCup99 dataset as an example application to demonstrate its performance in feature selection and classification tasks.
